@@ -52,7 +52,7 @@ nav .nav-right-section img {
 }
 
 main {
-  margin-top: 90px;
+  margin-top: 70px;
   text-align: center;
 }
 
@@ -60,7 +60,7 @@ main .main-logo {
   width: 305px;
   height: 91px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 main .main-logo img {
@@ -71,7 +71,7 @@ main .main-input {
   width: 593px;
   height: 25px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 main .main-input-container {
@@ -85,13 +85,11 @@ main .main-input-container {
 }
 
 main .main-input-container input {
-
   width: 487px;
   height: 34px;
   border: none;
   outline: none;
   margin-left: 1.3rem;
-   
 }
 
 main .main-input-container:hover {
@@ -106,11 +104,10 @@ main .main-input .search-icon {
   background-size: contain;
   width: 20px;
   height: 20px;
-  opacity: .45;
-  
+  opacity: 0.45;
 }
 
-main .main-input .micro-icon{
+main .main-input .micro-icon {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -118,4 +115,65 @@ main .main-input .micro-icon{
   width: 19px;
   height: 19px;
   margin-right: 2rem;
+}
+
+main .main-buttons {
+  width: 584px;
+  height: 58px;
+  margin: 0 auto;
+}
+
+main .main-buttons div {
+  display: inline-block;
+}
+
+main .main-buttons button {
+  height: 36px;
+  background-color: #f2f2f2;
+  border: 0;
+  font-size: 1.5rem;
+  color: #5f6368;
+  border-radius: 4px;
+  padding: 0 16px;
+  margin: 11px 4px;
+  text-align: center;
+}
+
+main .main-buttons button:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px #000001;
+  color: #222;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 1.3rem;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+footer .footer-left {
+  justify-content: left;
+}
+
+footer .footer-right {
+  justify-content: right;
+}
+
+footer ul li a {
+  margin: 10px;
+  color: #5f6368;
 }
